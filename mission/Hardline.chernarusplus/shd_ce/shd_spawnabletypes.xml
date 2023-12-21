@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+
+	<!-- CLOTHES -->
+
+	<!-- PlateCarrier -->
+	<type name="shd_PlateCarrierVest_Adidas">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.85">
+			<item name="shd_PlateCarrierHolster_Adidas" chance="1.00" />
+		</attachments>
+		<attachments chance="0.85">
+			<item name="shd_PlateCarrierPouches_Adidas" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="shd_PlateCarrierVest_EMR">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.85">
+			<item name="shd_PlateCarrierHolster_EMR" chance="1.00" />
+		</attachments>
+		<attachments chance="0.85">
+			<item name="shd_PlateCarrierPouches_EMR" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="shd_PlateCarrierVest_ODBrown">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.85">
+			<item name="shd_PlateCarrierHolster_ODBrown" chance="1.00" />
+		</attachments>
+		<attachments chance="0.85">
+			<item name="shd_PlateCarrierPouches_ODBrown" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="shd_PlateCarrierVest_Multicam">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.85">
+			<item name="shd_PlateCarrierHolster_Multicam" chance="1.00" />
+		</attachments>
+		<attachments chance="0.85">
+			<item name="shd_PlateCarrierPouches_Multicam" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="shd_PlateCarrierVest_MARPAT">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.85">
+			<item name="shd_PlateCarrierHolster_MARPAT" chance="1.00" />
+		</attachments>
+		<attachments chance="0.85">
+			<item name="shd_PlateCarrierPouches_MARPAT" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="shd_PlateCarrierVest_ATACS">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.85">
+			<item name="shd_PlateCarrierHolster_ATACS" chance="1.00" />
+		</attachments>
+		<attachments chance="0.85">
+			<item name="shd_PlateCarrierPouches_ATACS" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="shd_PlateCarrierVest_Coyote">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.85">
+			<item name="shd_PlateCarrierHolster_Coyote" chance="1.00" />
+		</attachments>
+		<attachments chance="0.85">
+			<item name="shd_PlateCarrierPouches_Coyote" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="shd_PlateCarrierVest_MulticamBlack">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.85">
+			<item name="shd_PlateCarrierHolster_MulticamBlack" chance="1.00" />
+		</attachments>
+		<attachments chance="0.85">
+			<item name="shd_PlateCarrierPouches_MulticamBlack" chance="1.00" />
+		</attachments>
+	</type>
+
+	<!-- BomberJacket -->
+	<type name="shd_BomberJacket_Drive">
+		<cargo preset="mixVillage" />
+	</type>
+
+	<!-- Hoodie -->
+	<type name="shd_Hoodie_BlackBlue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_Hoodie_BlackRed">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_Hoodie_BlackBrown">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_Hoodie_BlackGreen">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_Hoodie_EMR">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_Hoodie_Multicam">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_Hoodie_TrueBlack">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_Hoodie_CrowSnake">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_Hoodie_DarkGreen">
+		<cargo preset="mixVillage" />
+	</type>
+
+	<!-- HunterPants -->
+	<type name="shd_HunterPants_Black">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="shd_HunterPants_Green">
+		<cargo preset="mixHunter" />
+	</type>
+
+	<!-- HuntingJacket -->
+	<type name="shd_HuntingJacket_Black">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="shd_HuntingJacket_Green">
+		<cargo preset="mixHunter" />
+	</type>
+
+	<!-- MountainBag -->
+	<type name="shd_MountainBag_BlackBlue">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_MountainBag_BlackRed">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_MountainBag_BlueOrange">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_MountainBag_GreenBlack">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_MountainBag_ODBrown">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_MountainBag_EMR">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_MountainBag_ATACS">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_MountainBag_Multicam">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+
+	<!-- NurseDress -->
+	<type name="shd_NurseDress_Black">
+		<cargo preset="toolsMedic" />
+	</type>
+
+	<!-- RidersJacket -->
+	<type name="shd_RidersJacket_Brown">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_RidersJacket_GTA4">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_RidersJacket_Cyberpunk">
+		<cargo preset="mixVillage" />
+	</type>
+	
+	<!-- TaloonBag -->
+	<type name="shd_TaloonBag_BlackBlue">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_TaloonBag_BlackRed">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_TaloonBag_BlueOrange">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_TaloonBag_GreenBlack">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_TaloonBag_Black">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_TaloonBag_BlackBrown">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_TaloonBag_BlackGreen">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_TaloonBag_EMR">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+
+	<!-- CargoPants -->
+	<type name="shd_CargoPants_Multicam">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+	</type>
+	<type name="shd_CargoPants_Brown">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+	</type>
+
+	<!-- GorkaEJacket -->
+	<type name="shd_GorkaEJacket_Black">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="shd_GorkaEJacket_Olive">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="shd_GorkaEJacket_Brown">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="shd_GorkaEJacket_EMR">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="shd_GorkaEJacket_OliveBrown">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="shd_GorkaEJacket_Partizan">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="shd_GorkaEJacket_ATACS">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="shd_GorkaEJacket_EMR2">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+
+	<!-- GorkaPants -->
+	<type name="shd_GorkaPants_Black">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="shd_GorkaPants_Olive">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_GorkaPants_Brown">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="shd_GorkaPants_EMR">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_GorkaPants_OliveBrown">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_GorkaPants_Partizan">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_GorkaPants_ATACS">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_GorkaPants_EMR2">
+		<cargo preset="mixArmy" />
+	</type>
+
+
+	<!-- HuntingBag -->
+	<type name="shd_HuntingBag_EMR">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="shd_HuntingBag_Olive">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="shd_HuntingBag_Brown">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="shd_HuntingBag_Black">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+
+	<!-- NBC -->
+	<type name="shd_NBCJacket_mil">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="shd_NBCPants_mil">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="shd_NBCHood_mil">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="shd_NBCBoots_mil">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="shd_NBCGloves_mil">
+		<damage min="0.0" max="0.35" />
+	</type>
+
+	<!-- TacticalShirt -->
+	<type name="shd_TacticalShirt_Multicam">
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="shd_TacticalShirt_Brown">
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="shd_TacticalShirt_Green">
+		<cargo preset="ammoArmy" />
+	</type>
+
+	<!-- PressVest -->
+	<type name="shd_PressVest_OlivePolice">
+		<cargo preset="toolsPolice" />
+		<cargo preset="ammoPolice" />
+	</type>
+	<type name="shd_PressVest_BluePolice">
+		<cargo preset="toolsPolice" />
+		<cargo preset="ammoPolice" />
+	</type>
+	<type name="shd_PressVest_EMR">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="shd_PressVest_Flecktarn">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="shd_PressVest_ATACS">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="shd_PressVest_MC">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="shd_PressVest_Partizan">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="shd_PressVest_PartizanM">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+
+	<!-- Smersh -->
+	<type name="shd_SmershBag_Olive">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_SmershBag_Black">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_SmershBag_EMR">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_SmershBag_OliveBrown">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_SmershBag_Flecktarn">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_SmershBag_ATACS">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_SmershBag_MARPAT">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_SmershBag_MC">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_SmershBag_MCTropic">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_SmershBag_Partizan">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_SmershBag_PartizanM">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+
+	<!-- TortillaBag -->
+	<type name="shd_TortillaBag_Olive">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_TortillaBag_Black">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_TortillaBag_EMR">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_TortillaBag_OliveBrown">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+
+	<!-- CanvasBag -->
+	<type name="shd_CanvasBag_Black">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_CanvasBag_Brown">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_CanvasBag_Sand">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_CanvasBag_ATACS">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+		<cargo preset="foodArmy" />
+	</type>
+	<type name="shd_CanvasBag_EMR">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+		<cargo preset="foodArmy" />
+	</type>
+	<type name="shd_CanvasBag_Flecktarn">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+		<cargo preset="foodArmy" />
+	</type>
+	<type name="shd_CanvasBag_MC">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+		<cargo preset="foodArmy" />
+	</type>
+	<type name="shd_CanvasBag_MCBlack">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+		<cargo preset="foodArmy" />
+	</type>
+	<type name="shd_CanvasBag_MCTropic">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+		<cargo preset="foodArmy" />
+	</type>
+	<type name="shd_CanvasBag_Partizan">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+		<cargo preset="foodArmy" />
+	</type>
+	<type name="shd_CanvasBag_PartizanM">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+		<cargo preset="foodArmy" />
+	</type>
+
+	<!-- ArmyPouch -->
+	<type name="shd_CanvasBag_Black">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="shd_CanvasBag_Brown">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_CanvasBag_Sand">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_CanvasBag_ATACS">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_CanvasBag_EMR">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_CanvasBag_Flecktarn">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_CanvasBag_MC">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_CanvasBag_MCBlack">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_CanvasBag_MCTropic">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_CanvasBag_Partizan">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_CanvasBag_PartizanM">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+
+	<!-- ArmyPouch -->
+	<type name="shd_HipPack_gray">
+		<cargo chance="0.6">
+			<item name="Zagorky" />
+		</cargo>
+		<cargo chance="0.4">
+			<item name="ChernarusMap" />
+		</cargo>
+	</type>
+	<type name="shd_HipPack_BrownYellow">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="shd_HipPack_ATACS">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_HipPack_EMR">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_HipPack_MARPAT">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_HipPack_MC">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_HipPack_MCBlack">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_HipPack_MCTropic">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_HipPack_Partizan">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="shd_HipPack_PartizanM">
+		<cargo preset="mixArmy" />
+	</type>
+	
+	<!-- Slingbag -->
+	<type name="shd_SlingBag_FullBlack">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_SlingBag_Gray">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="shd_SlingBag_Olive">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="shd_SlingBag_BrownYellow">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+		<cargo preset="mixHunter" />
+	</type>
+
+	<!-- DirtBikeHelmet -->
+	<type name="shd_DirtBikeHelmet_TrueBlack">
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Mouthguard_TrueBlack" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Visor_TrueBlack" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="shd_DirtBikeHelmet_Blue_NoLogo">
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Mouthguard_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Visor_Blue" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="shd_DirtBikeHelmet_Red_NoLogo">
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Mouthguard_Red" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Visor_Red" chance="1.00" />
+		</attachments>
+	</type>
+	
+	<type name="DirtBikeHelmet_Black">
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Mouthguard_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Visor_Black" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="DirtBikeHelmet_Red">
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Mouthguard_Red" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Visor_Red" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="DirtBikeHelmet_Police">
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Mouthguard_Police" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Visor_Police" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="DirtBikeHelmet_Khaki">
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Mouthguard_Khaki" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Visor_Khaki" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="DirtBikeHelmet_Green">
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Mouthguard_Green" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Visor_Green" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="DirtBikeHelmet_Chernarus">
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Mouthguard_Chernarus" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Visor_Chernarus" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="DirtBikeHelmet_Blue">
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Mouthguard_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="shd_DirtBikeHelmet_Visor_Blue" chance="1.00" />
+		</attachments>
+	</type>
+
+	<!-- WEAPONS -->
+
+    <!-- M4A1 -->
+	<type name="shd_M4A1_OD">
+		<damage min="0.45" max="0.85" />
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_PlasticHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BUISOptic" chance="0.50" />
+			<item name="M4_CarryHandleOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="shd_Mag_CMAG_40Rnd_od" chance="0.15" />
+			<item name="shd_Mag_CMAG_10Rnd" chance="0.50" />
+			<item name="shd_Mag_CMAG_20Rnd" chance="0.70" />
+			<item name="shd_Mag_CMAG_30Rnd_od" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="shd_M4A1_Sand">
+		<damage min="0.45" max="0.85" />
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_PlasticHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BUISOptic" chance="0.50" />
+			<item name="M4_CarryHandleOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="shd_Mag_CMAG_40Rnd_sand" chance="0.15" />
+			<item name="shd_Mag_CMAG_10Rnd" chance="0.50" />
+			<item name="shd_Mag_CMAG_20Rnd" chance="0.70" />
+			<item name="shd_Mag_CMAG_30Rnd_sand" chance="1.00" />
+		</attachments>
+	</type>
+
+	<!-- FAL -->
+	<type name="shd_FAL_Wood">
+		<damage min="0.45" max="0.85" />
+		<attachments chance="1.00">
+			<item name="Fal_FoldingBttstck" chance="0.50" />
+			<item name="shd_Fal_OeBttstck_Wood" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+
+	<!-- SVD -->
+	<type name="shd_SVD_Wood">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.10">
+			<item name="Mag_SVD_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="KashtanOptic" chance="0.50" />
+			<item name="PSO11Optic" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="shd_SVD_OD">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.10">
+			<item name="Mag_SVD_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="KashtanOptic" chance="0.50" />
+			<item name="PSO11Optic" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="shd_SVD_Sand">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.10">
+			<item name="Mag_SVD_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="KashtanOptic" chance="0.50" />
+			<item name="PSO11Optic" chance="0.30" />
+		</attachments>
+	</type>
+
+	<!-- Winchester70 -->
+	<type name="shd_Winchester70_BlackWood">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>
+
+	<!-- VSS -->
+	<type name="shd_VSS_polymer">
+		<attachments chance="0.25">
+			<item name="KashtanOptic" chance="0.40" />
+			<item name="PSO1Optic" chance="0.40" />
+		</attachments>
+		<attachments chance="1.0">
+			<item name="PSO11Optic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="Mag_VSS_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+
+	<!-- Mp133Shotgun -->
+	<type name="shd_Mp133_polymer">
+		<damage min="0.0" max="0.32" />
+		<attachments chance="0.30">
+			<item name="FNP45_MRDSOptic" chance="0.30" />
+		</attachments>
+	</type>
+
+	<!-- Glock19 -->
+	<type name="shd_Glock19_OD">
+		<attachments chance="0.05">
+			<item name="PistolSuppressor_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="Mag_Glock_15Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="shd_Glock19_Sand">
+		<attachments chance="0.05">
+			<item name="PistolSuppressor_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="Mag_Glock_15Rnd" chance="1.00" />
+		</attachments>
+	</type>
+
+	<!-- B95 -->
+	<type name="shd_B95_BlackWood">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>
+
+	<!-- Mosin9130 -->
+	<type name="shd_Mosin9130_BlackWood">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.10">
+			<item name="Mosin_Compensator" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+	</type>
+
+	<!-- SKS -->
+	<type name="shd_SKS_BlackWood">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.10">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+	</type>
+
+	<!-- Scout -->
+	<type name="shd_Scout_Wood">
+		<attachments chance="0.75">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="M68Optic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.25" />
+			<item name="ACOGOptic_6x" chance="0.25" />
+			<item name="M4_Suppressor" chance="0.25" />
+		</attachments>
+	</type>
+
+	<!-- M16A2 -->
+	<type name="shd_M16A2_OD">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.30">
+			<item name="shd_Mag_CMAG_40Rnd_od" chance="0.15" />
+			<item name="shd_Mag_CMAG_10Rnd" chance="0.50" />
+			<item name="shd_Mag_CMAG_20Rnd" chance="0.70" />
+			<item name="shd_Mag_CMAG_30Rnd_od" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="shd_M16A2_Sand">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.30">
+			<item name="shd_Mag_CMAG_40Rnd_sand" chance="0.15" />
+			<item name="shd_Mag_CMAG_10Rnd" chance="0.50" />
+			<item name="shd_Mag_CMAG_20Rnd" chance="0.70" />
+			<item name="shd_Mag_CMAG_30Rnd_sand" chance="1.00" />
+		</attachments>
+	</type>
+</spawnabletypes>
+
