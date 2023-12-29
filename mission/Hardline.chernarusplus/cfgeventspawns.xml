@@ -1340,7 +1340,7 @@
     	<pos x="3262.817" z="12430.286" a="0" y="219.495" group="Train_Mil_Petrovka"/>
 	</event> -->
 	<!-- HypeTrain -->
-	<event name="StaticHypeTrain">
+	<event name="VehicleHypeTrain">
 		<zone smin="0" smax="0" dmin="1" dmax="2" r="20" />
     	<pos x="5587.466" z="2063.353" a="0" y="7.75" group="HypeTrain_Cherno"/>
     	<pos x="3678.228" z="2328.108" a="0" y="6.7" group="HypeTrain_Kamarovo"/>
@@ -1422,6 +1422,12 @@
 		<pos x="2244.152" z="12250.476" a="0" y="237.972" group="Traffic_Topolniki"/>
 		<pos x="4927.973" z="7844.380" a="0" y="333.543" group="Traffic_VMC"/>
 		<pos x="3518.464" z="9122.509" a="0" y="310.821" group="Traffic_Vybor"/>
+	</event>
+	<event name="VehicleGyro">
+		<pos x="8230.68" z="9028.7" a="320.966431" />
+		<pos x="4898.42" z="9638.15" a="320.966431" />
+		<pos x="1714.1" z="13775.7" a="320.966431" />
+		<pos x="12171.1" z="12648.3" a="320.966431" />
 	</event>
 
     <event name="VehicleTransitBus" />

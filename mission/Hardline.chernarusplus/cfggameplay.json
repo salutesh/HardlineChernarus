@@ -3,13 +3,13 @@
 	"GeneralData":
 	{
 		"disableBaseDamage": false,
-		"disableContainerDamage": false,
+		"disableContainerDamage": true,
 		"disableRespawnDialog": false,
 		"disableRespawnInUnconsciousness": false
 	},
     "PlayerData":
 	{
-		"disablePersonalLight": false,
+		"disablePersonalLight": true,
 		"StaminaData":
 		{
 			"sprintStaminaModifierErc": 1.0,

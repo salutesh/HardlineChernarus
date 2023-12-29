@@ -41,5 +41,10 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="ht_ce">
 		<file name="ht_types.xml" type="types" />
 		<file name="ht_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="ht_events.xml" type="events" />
+	</ce>
+	<ce folder="expansion_ce">
+		<file name="expansion_types.xml" type="types" />
+		<file name="expansion_events.xml" type="events" />
 	</ce>
 </economycore>
