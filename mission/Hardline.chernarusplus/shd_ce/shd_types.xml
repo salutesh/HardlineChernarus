@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-
     <!-- CLOTHES -->
-
     <!-- PlateCarrier -->
     <type name="shd_PlateCarrierVest_Adidas">
         <nominal>0</nominal>
@@ -119,7 +117,7 @@
     </type>
 
     <type name="shd_PlateCarrierPouches_Adidas">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -134,7 +132,7 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_PlateCarrierPouches_EMR">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -147,7 +145,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_PlateCarrierPouches_ODBrown">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -160,7 +158,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_PlateCarrierPouches_Multicam">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -173,7 +171,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_PlateCarrierPouches_MARPAT">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -186,7 +184,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_PlateCarrierPouches_ATACS">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -199,7 +197,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_PlateCarrierPouches_Coyote">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -212,7 +210,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_PlateCarrierPouches_MulticamBlack">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -226,7 +224,7 @@
     </type>
 
     <type name="shd_PlateCarrierHolster_Adidas">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -334,10 +332,10 @@
 
     <!-- Bandana -->
     <type name="shd_Bandana_Black">
-        <nominal>2</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -350,10 +348,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_Bandana_Brown">
-        <nominal>2</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -366,10 +364,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_Bandana_EMR">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -385,10 +383,10 @@
     
     <!-- BaseballCap -->
     <type name="shd_BaseballCap_BlackBlue">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -399,10 +397,10 @@
         <usage name="Village"/>
     </type>
     <type name="shd_BaseballCap_BlackRed">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -413,10 +411,10 @@
         <usage name="Village"/>
     </type>
     <type name="shd_BaseballCap_BlueOrange">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -427,10 +425,10 @@
         <usage name="Village"/>
     </type>
     <type name="shd_BaseballCap_GreenBlack">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -441,10 +439,10 @@
         <usage name="Village"/>
     </type>
     <type name="shd_BaseballCap_Adidas">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -455,10 +453,10 @@
         <usage name="Village"/>
     </type>
     <type name="shd_BaseballCap_TF">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -469,10 +467,10 @@
         <usage name="Village"/>
     </type>
     <type name="shd_BaseballCap_Brown">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -483,10 +481,10 @@
         <usage name="Village"/>
     </type>
     <type name="shd_BaseballCap_DarkBrown">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -497,7 +495,7 @@
         <usage name="Village"/>
     </type>
     <type name="shd_BaseballCap_EMR">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -512,7 +510,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_BaseballCap_Multicam">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -527,7 +525,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_BaseballCap_ATACS">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -836,10 +834,10 @@
 
     <!-- BoonieHat -->
     <type name="shd_BoonieHat_Brown">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -849,10 +847,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="shd_BoonieHat_DarkBrown">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -862,10 +860,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="shd_BoonieHat_EMR">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -876,10 +874,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="shd_BoonieHat_Multicam">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -890,10 +888,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="shd_BoonieHat_MARPAT">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -906,10 +904,10 @@
 
     <!-- HikingBootsLow -->
     <type name="shd_HikingBootsLow_Green">
-        <nominal>2</nominal>
+        <nominal>14</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>9</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -920,10 +918,10 @@
         <usage name="Village"/>
     </type>
     <type name="shd_HikingBootsLow_EMR">
-        <nominal>2</nominal>
+        <nominal>13</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -934,10 +932,10 @@
         <usage name="Village"/>
     </type>
     <type name="shd_HikingBootsLow_Multicam">
-        <nominal>2</nominal>
+        <nominal>13</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -950,10 +948,10 @@
 
     <!-- Hoodie -->
     <type name="shd_Hoodie_BlackBlue">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -966,10 +964,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_Hoodie_BlackRed">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -982,10 +980,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_Hoodie_BlackBrown">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -998,10 +996,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_Hoodie_BlackGreen">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1014,10 +1012,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_Hoodie_EMR">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1030,10 +1028,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_Hoodie_Multicam">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1046,10 +1044,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_Hoodie_TrueBlack">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1062,10 +1060,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_Hoodie_CrowSnake">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1078,10 +1076,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_Hoodie_DarkGreen">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1096,10 +1094,10 @@
     
     <!-- HunterPants -->
     <type name="shd_HunterPants_Black">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1110,10 +1108,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_HunterPants_Green">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1126,10 +1124,10 @@
 
     <!-- HuntingJacket -->
     <type name="shd_HuntingJacket_Black">
-        <nominal>2</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1140,10 +1138,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_HuntingJacket_Green">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1304,10 +1302,10 @@
 
     <!-- RidersJacket -->
     <type name="shd_RidersJacket_Brown">
-        <nominal>2</nominal>
+        <nominal>9</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1316,10 +1314,10 @@
         <usage name="Town"/>
     </type>
     <type name="shd_RidersJacket_GTA4">
-        <nominal>1</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1328,10 +1326,10 @@
         <usage name="Town"/>
     </type>
     <type name="shd_RidersJacket_Cyberpunk">
-        <nominal>1</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1342,10 +1340,10 @@
 
     <!-- TaloonBag -->
     <type name="shd_TaloonBag_BlackBlue">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1358,10 +1356,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_TaloonBag_BlackRed">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1374,10 +1372,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_TaloonBag_BlueOrange">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1390,10 +1388,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_TaloonBag_GreenBlack">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1406,10 +1404,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_TaloonBag_Black">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1422,10 +1420,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_TaloonBag_BlackBrown">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1438,10 +1436,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_TaloonBag_BlackGreen">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1454,10 +1452,10 @@
         <value name="Tier4"/>
     </type>
      <type name="shd_TaloonBag_EMR">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1545,10 +1543,10 @@
         <usage name="Village"/>
     </type>
     <type name="shd_TShirt_EMR">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1557,10 +1555,10 @@
         <usage name="Village"/>
     </type>
     <type name="shd_TShirt_Multicam">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1569,10 +1567,10 @@
         <usage name="Village"/>
     </type>
     <type name="shd_TShirt_MARPAT">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1581,10 +1579,10 @@
         <usage name="Village"/>
     </type>
     <type name="shd_TShirt_ATACS">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1593,10 +1591,10 @@
         <usage name="Village"/>
     </type>
     <type name="shd_TShirt_Freshie">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1607,10 +1605,10 @@
 
     <!-- BalaclavaMask -->
     <type name="shd_BalaclavaMask_EMR">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1622,10 +1620,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_BalaclavaMask_EMRSkull">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1637,10 +1635,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_BalaclavaMask_GreenSkull">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1652,10 +1650,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_Balaclava3Holes_EMR">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1686,10 +1684,10 @@
 
     <!-- CargoPants -->
     <type name="shd_CargoPants_Multicam">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>7</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1703,10 +1701,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_CargoPants_Brown">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>7</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1721,22 +1719,22 @@
 
     <!-- GorkaEJacket -->
     <type name="shd_GorkaEJacket_Black">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Hunting"/>
+        <usage name="Military"/>
     </type>
     <type name="shd_GorkaEJacket_Olive">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1745,22 +1743,22 @@
         <usage name="Military"/>
     </type>
     <type name="shd_GorkaEJacket_Brown">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Hunting"/>
+        <usage name="Military"/>
     </type>
     <type name="shd_GorkaEJacket_EMR">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1769,10 +1767,10 @@
         <usage name="Military"/>
     </type>
     <type name="shd_GorkaEJacket_OliveBrown">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1781,10 +1779,10 @@
         <usage name="Military"/>
     </type>
     <type name="shd_GorkaEJacket_Partizan">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1793,10 +1791,10 @@
         <usage name="Military"/>
     </type>
     <type name="shd_GorkaEJacket_ATACS">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1805,7 +1803,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_GorkaEJacket_EMR2">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -1819,22 +1817,22 @@
 
     <!-- GorkaPants -->
     <type name="shd_GorkaPants_Black">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Hunting"/>
+        <usage name="Military"/>
     </type>
     <type name="shd_GorkaPants_Olive">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1843,22 +1841,22 @@
         <usage name="Military"/>
     </type>
     <type name="shd_GorkaPants_Brown">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Hunting"/>
+        <usage name="Military"/>
     </type>
     <type name="shd_GorkaPants_EMR">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1867,10 +1865,10 @@
         <usage name="Military"/>
     </type>
     <type name="shd_GorkaPants_OliveBrown">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1879,10 +1877,10 @@
         <usage name="Military"/>
     </type>
     <type name="shd_GorkaPants_Partizan">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1891,10 +1889,10 @@
         <usage name="Military"/>
     </type>
     <type name="shd_GorkaPants_ATACS">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1903,10 +1901,10 @@
         <usage name="Military"/>
     </type>
     <type name="shd_GorkaPants_EMR2">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2092,10 +2090,10 @@
 
     <!-- TacticalShirt -->
     <type name="shd_TacticalShirt_Multicam">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2106,10 +2104,10 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_TacticalShirt_Brown">
-        <nominal>2</nominal>
+        <nominal>9</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2401,7 +2399,7 @@
         <value name="Tier4"/>
     </type>
     <type name="shd_SmershBag_Olive">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -2413,7 +2411,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_SmershBag_Black">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -2425,7 +2423,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_SmershBag_EMR">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -2437,7 +2435,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_SmershBag_OliveBrown">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -2449,7 +2447,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_SmershBag_Flecktarn">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -2461,7 +2459,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_SmershBag_ATACS">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -2473,7 +2471,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_SmershBag_MARPAT">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -2485,7 +2483,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_SmershBag_MC">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -2497,7 +2495,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_SmershBag_MCTropic">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -2509,7 +2507,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_SmershBag_Partizan">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -2521,7 +2519,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_SmershBag_PartizanM">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -2535,7 +2533,7 @@
 
     <!-- TortillaBag -->
     <type name="shd_TortillaBag_Olive">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2547,7 +2545,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_TortillaBag_Black">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2559,7 +2557,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_TortillaBag_EMR">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2571,7 +2569,7 @@
         <usage name="Military"/>
     </type>
     <type name="shd_TortillaBag_OliveBrown">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2627,10 +2625,10 @@
         <value name="Tier2"/>
     </type>
     <type name="shd_CanvasBag_ATACS">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2642,10 +2640,10 @@
         <value name="Tier2"/>
     </type>
     <type name="shd_CanvasBag_EMR">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2657,10 +2655,10 @@
         <value name="Tier2"/>
     </type>
     <type name="shd_CanvasBag_Flecktarn">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2672,10 +2670,10 @@
         <value name="Tier2"/>
     </type>
     <type name="shd_CanvasBag_MC">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2687,10 +2685,10 @@
         <value name="Tier2"/>
     </type>
     <type name="shd_CanvasBag_MCBlack">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2702,10 +2700,10 @@
         <value name="Tier2"/>
     </type>
     <type name="shd_CanvasBag_MCTropic">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2717,10 +2715,10 @@
         <value name="Tier2"/>
     </type>
     <type name="shd_CanvasBag_Partizan">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2732,10 +2730,10 @@
         <value name="Tier2"/>
     </type>
     <type name="shd_CanvasBag_PartizanM">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2749,10 +2747,10 @@
 
     <!-- ArmyPouch -->
     <type name="shd_ArmyPouch_Black">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2764,10 +2762,10 @@
         <value name="Tier3"/>
     </type>
     <type name="shd_ArmyPouch_Brown">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2779,10 +2777,10 @@
         <value name="Tier3"/>
     </type>
     <type name="shd_ArmyPouch_Olive">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2794,10 +2792,10 @@
         <value name="Tier3"/>
     </type>
     <type name="shd_ArmyPouch_Sand">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2809,10 +2807,10 @@
         <value name="Tier3"/>
     </type>
     <type name="shd_ArmyPouch_ATACS">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2824,10 +2822,10 @@
         <value name="Tier3"/>
     </type>
     <type name="shd_ArmyPouch_EMR">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2839,10 +2837,10 @@
         <value name="Tier3"/>
     </type>
     <type name="shd_ArmyPouch_Flecktarn">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2854,10 +2852,10 @@
         <value name="Tier3"/>
     </type>
     <type name="shd_ArmyPouch_MC">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2869,10 +2867,10 @@
         <value name="Tier3"/>
     </type>
     <type name="shd_ArmyPouch_MCBlack">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2884,10 +2882,10 @@
         <value name="Tier3"/>
     </type>
     <type name="shd_ArmyPouch_MCTropic">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2899,10 +2897,10 @@
         <value name="Tier3"/>
     </type>
     <type name="shd_ArmyPouch_Partizan">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2914,10 +2912,10 @@
         <value name="Tier3"/>
     </type>
     <type name="shd_ArmyPouch_PartizanM">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2931,10 +2929,10 @@
     
     <!-- HipPack -->
     <type name="shd_HipPack_gray">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2944,10 +2942,10 @@
         <usage name="Town"/>
     </type>
     <type name="shd_HipPack_BrownYellow">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2958,10 +2956,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="shd_HipPack_ATACS">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2972,10 +2970,10 @@
         <usage name="Military"/>
     </type>
     <type name="shd_HipPack_EMR">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2986,10 +2984,10 @@
         <usage name="Military"/>
     </type>
     <type name="shd_HipPack_MARPAT">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3000,10 +2998,10 @@
         <usage name="Military"/>
     </type>
     <type name="shd_HipPack_MC">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3014,10 +3012,10 @@
         <usage name="Military"/>
     </type>
     <type name="shd_HipPack_MCBlack">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3028,10 +3026,10 @@
         <usage name="Military"/>
     </type>
     <type name="shd_HipPack_MCTropic">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3042,10 +3040,10 @@
         <usage name="Military"/>
     </type>
     <type name="shd_HipPack_Partizan">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3056,10 +3054,10 @@
         <usage name="Military"/>
     </type>
     <type name="shd_HipPack_PartizanM">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3072,10 +3070,10 @@
 
     <!-- Slingbag -->
     <type name="shd_SlingBag_FullBlack">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3086,10 +3084,10 @@
         <value name="Tier2"/>
     </type>
     <type name="shd_SlingBag_Gray">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3100,10 +3098,10 @@
         <value name="Tier2"/>
     </type>
     <type name="shd_SlingBag_Olive">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3115,10 +3113,10 @@
         <value name="Tier2"/>
     </type>
     <type name="shd_SlingBag_BrownYellow">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3406,7 +3404,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="ContaminatedArea"/>
     </type>
@@ -3425,10 +3423,10 @@
 
     <!-- FAL -->
     <type name="shd_FAL_Wood">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3439,10 +3437,10 @@
 
     <!-- SVD -->
     <type name="shd_SVD_Wood">
-        <nominal>5</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3451,10 +3449,10 @@
         <usage name="Military"/>
     </type>
     <type name="shd_SVD_OD">
-        <nominal>5</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3463,24 +3461,24 @@
         <usage name="Military"/>
     </type>
     <type name="shd_SVD_Sand">
-        <nominal>5</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
 
     <!-- Winchester70 -->
     <type name="shd_Winchester70_BlackWood">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>2</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -3493,24 +3491,25 @@
 
     <!-- VSS -->
     <type name="shd_VSS_polymer">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
     </type>
 
     <!-- Mp133Shotgun -->
     <type name="shd_Mp133_polymer">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>8</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -3549,10 +3548,10 @@
 
     <!-- B95 -->
     <type name="shd_B95_BlackWood">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3566,12 +3565,12 @@
 
     <!-- Mosin9130 -->
     <type name="shd_Mosin9130_BlackWood">
-        <nominal>55</nominal>
+        <nominal>12</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>40</min>
+        <min>12</min>
         <quantmin>0</quantmin>
-        <quantmax>80</quantmax>
+        <quantmax>25</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -3584,12 +3583,12 @@
 
     <!-- SKS -->
     <type name="shd_SKS_BlackWood">
-        <nominal>30</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>7</min>
         <quantmin>0</quantmin>
-        <quantmax>80</quantmax>
+        <quantmax>40</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -3614,10 +3613,10 @@
 
     <!-- M16A2 -->
     <type name="shd_M16A2_OD">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3628,10 +3627,10 @@
         <value name="Tier3"/>
     </type>
     <type name="shd_M16A2_Sand">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3724,7 +3723,7 @@
 
     <!-- M4_Suppressor -->
     <type name="shd_M4_Suppressor_od">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>3600</restock>
         <min>1</min>
@@ -3737,7 +3736,7 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="shd_M4_Suppressor_sand">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>3600</restock>
         <min>1</min>
@@ -3752,10 +3751,10 @@
     
     <!-- PistolSuppressor -->
     <type name="shd_PistolSuppressor_Black">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3836,4 +3835,3 @@
         <usage name="ContaminatedArea"/>
     </type>
 </types>
-    
